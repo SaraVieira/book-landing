@@ -1,0 +1,29 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: #100613;
+  color: #f9f9f9;
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  text-align: center;
+  font-size: 100px;
+}
+
+main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+canvas {
+  position: absolute;
+}

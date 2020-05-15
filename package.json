@@ -4,11 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html",
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "parcel  *.html",
+    "dev": "parcel  *.html",
+    "build": "parcel build  *.html"
   },
   "dependencies": {
+    "animejs": "^3.2.0",
+    "confetti-js": "^0.0.18",
     "parcel-bundler": "^1.12.4"
   },
   "devDependencies": {
