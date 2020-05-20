@@ -4,12 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel  *.html",
-    "dev": "parcel  *.html",
-    "build": "parcel build  *.html"
+    "start": "parcel  src/*.html",
+    "dev": "parcel  src/*.html",
+    "build": "parcel build  src/*.html"
   },
   "dependencies": {
     "animejs": "^3.2.0",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
     "confetti-js": "^0.0.18",
     "parcel-bundler": "^1.12.4"
   },
